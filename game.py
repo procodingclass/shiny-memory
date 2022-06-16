@@ -157,7 +157,7 @@ def gameplay():
             if(main.player_rect.x < 0):
                 main.player_rect.x = 0
 
-            if(main.player_rect.colliderect(door_rect)):
+            if(main.player_rect.x >= door_rect.centerx):
                 screen.blit(win_surf[0],(screen_width / 2 - 140,100))
                 main.player_vel_x = 0
                 main.player_vel_y = 0
