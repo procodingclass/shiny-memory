@@ -144,7 +144,7 @@ def check_collision(static_rect, moving_rect, vel_x, vel_y):
 
 
 def gameplay():
-    global door_surf, win_surf, game_over_surf
+    global door_surf, win_surf, game_over_surf, door_rect
     global ground_rect, screen, spikes_rect1, spikes_rect2
 
     draw_arena()
